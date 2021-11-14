@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 189, 203);
+}
+
+.nav-menu{
+    margin-top: 0.3em;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-link{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: #000;
+    /* letter-spacing: 1px; */
+}
+
+.menu-link:hover{
+    border-bottom: 2px solid rgb(15, 181, 211);
+}
+
+.menu-link--active{
+    border-bottom: 2px solid rgb(15, 181, 211);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-height: auto;
+    margin: 2em auto;
+    padding: 0.5em;
+}
+
+.container-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-title{
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
+}
+
+.container-link{
+    color: rgb(20, 20, 20);
+    border-bottom: 1px solid rgb(240, 51, 98);
+    text-decoration: none;
+}
+
+.container-link:hover{
+    border-bottom: 1px solid rgb(221, 26, 140);
+    color: rgb(26, 147, 163);
+}
+
+.container-aspas{
+    align-self: flex-start;
+    margin: 0.5em;
+}
+
+.container-quote-text{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    color: rgb(43, 43, 43);
+}
+
+.container-quote-author{
+    text-align: right;
+    font-size: 1em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(59, 59, 59);
+}
+
+.container-button {
+    margin: 0.8em auto;
+    text-align: center;
+    padding: 1em;
+    background-color: rgb(29, 29, 29);
+    color: rgb(238, 185, 11);
+    border-radius: 25px 15px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px 1px rgb(48, 46, 46);
+}
+
+.container-button:hover {
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    background-color: rgb(240, 51, 98);
+    color: rgb(255, 255, 255);
+}
+
+/* Media query acima de 600px */
+
+@media (min-width: 601px){
+
+    body{
+        background-color: rgb(255, 189, 203);
+        background-image: url(images/pexels-anthony-shkraba-6969289.jpg);
+        background-repeat: no-repeat;
+        background-position: 80% 20%;
+        background-size: cover;
+        max-width: 100%;
+        min-height: 90vh;
+    }
+
+    .container{
+        max-width: 40%;
+    }
+}
+

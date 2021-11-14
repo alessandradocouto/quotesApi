@@ -12,9 +12,9 @@ Citações motivacionais e inspiradoras usando uma API(Interface de programaçã
 
 ## Tecnologias :shipit:
 
-[x] JavaScript(Fetch)
-[x] HTML
-[x] CSS(B.E.M)
+- [x] JavaScript(Fetch)
+- [x] HTML
+- [x] CSS(BEM)
 
 ### Referência :+1:
 

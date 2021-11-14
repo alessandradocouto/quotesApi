@@ -1,6 +1,6 @@
 # Consumo de api com Fetch(JavaScript) :loudspeaker:
 
-![Projeto Online](https://alessandradocouto.github.io/quotesApi/)
+Projeto online https://alessandradocouto.github.io/quotesApi/
 
 ![Foto projeto](https://github.com/alessandradocouto/quotesApi/blob/master/quotes-api-by-alessandra-do-couto.png)
 

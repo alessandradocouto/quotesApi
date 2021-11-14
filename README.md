@@ -4,7 +4,7 @@
 
 ![Foto projeto](https://github.com/alessandradocouto/quotesApi/blob/master/quotes-api-by-alessandra-do-couto.png)
 
-![Video]https://raw.githubusercontent.com/alessandradocouto/quotesApi/master/consumo-api-video-preview.mp4
+![Video](https://raw.githubusercontent.com/alessandradocouto/quotesApi/master/consumo-api-video-preview.mp4)
 
 
 Citações motivacionais e inspiradoras usando uma API(Interface de programação de aplicações).

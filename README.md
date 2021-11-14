@@ -2,7 +2,7 @@
 
 ![projeto online](https://alessandradocouto.github.io/quotesApi/)
 
-(https://raw.githubusercontent.com/alessandradocouto/quotesApi/master/consumo-api-video-preview.mp4)
+https://github.com/alessandradocouto/alessandradocouto.github.io/quotesApi/master/consumo-api-video-preview.mp4
 
 
 Citações motivacionais e inspiradoras usando uma API(Interface de programação de aplicações).

@@ -1,6 +1,9 @@
 # Consumo de api com Fetch(JavaScript) :loudspeaker:
 
-Preview :arrow_right: ![preview do projeto](https://alessandradocouto.github.io/quotesApi/)
+![projeto online](https://alessandradocouto.github.io/quotesApi/)
+
+![preview do projeto](https://raw.githubusercontent.com/alessandradocouto/quotesApi/master/consumo-api-video-preview.mp4)
+
 
 Citações motivacionais e inspiradoras usando uma API(Interface de programação de aplicações).
 

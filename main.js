@@ -1,6 +1,5 @@
 'use strict';
 
-// requisicao com promise
 async function fetchApi() {
     try {
         const urlApi = (`https://type.fit/api/quotes`);
@@ -12,7 +11,7 @@ async function fetchApi() {
     }
 };
 
-// clique do botao e consumir api 
+
 function showQuote() {
     const container = document.querySelector('.container');
     const displayStr = document.querySelector('.container-body');
@@ -20,10 +19,8 @@ function showQuote() {
     let tagHtml = '';
     let countBtn = 0;
 
-    searchBtn.addEventListener('click', async (e) => {
-        e.preventDefault();
+    searchBtn.addEventListener('click', async () => {
         const textAuthor = await fetchApi();
-
         if (!textAuthor[countBtn]) {
             let starQuote =
                 prompt('Você chegou ao final das frases. Quer voltar ao começo ou quer ler alguma frase específica? [0] a [1642] ');
